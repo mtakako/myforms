@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE> Installation et Utilisation de l'outil Duevera Formulaire </TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 1.1.1  (Win32)">
+	<META NAME="CREATED" CONTENT="20040517;9554082">
+	<META NAME="CHANGED" CONTENT="20040517;9583912">
+	<STYLE>
+	<!--
+		A:link { color: #0000ff }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="fr-FR" LINK="#0000ff" DIR="LTR">
+<P ALIGN=JUSTIFY><IMG SRC="Image1.gif" NAME="Image1" ALIGN=BOTTOM WIDTH=398 HEIGHT=39 BORDER=0></P>
+<P ALIGN=JUSTIFY><FONT FACE="Tahoma">****************************************************************</FONT></P>
+<P ALIGN=JUSTIFY><FONT FACE="Tahoma">****************************************************************</FONT></P>
+<P ALIGN=JUSTIFY><FONT FACE="Tahoma">****************************************************************</FONT></P>
+<P><FONT FACE="Tahoma"><FONT SIZE=5>Installation et Utilisation de
+l'outil Duevera Formulaire</FONT></FONT></P>
+<P ALIGN=JUSTIFY><FONT FACE="Tahoma">****************************************************************</FONT></P>
+<P ALIGN=JUSTIFY><FONT FACE="Tahoma">****************************************************************</FONT></P>
+<P ALIGN=JUSTIFY><FONT FACE="Tahoma">****************************************************************</FONT></P>
+<P ALIGN=JUSTIFY><FONT FACE="Verdana"><FONT SIZE=4><B>Installation</B></FONT></FONT></P>
+<P><FONT FACE="Verdana">L&rsquo;installation de Duevera formulaire
+est simple : il n&rsquo;y a pas de fichier &agrave; modifier &quot; &agrave;
+la main &quot; avec des variables &eacute;sot&eacute;riques. <BR>1.
+D&eacute;compactez sur votre ordinateur personnel le dossier
+&quot;&nbsp;duevera_formulaire&nbsp;&quot; contenant l&rsquo;ensemble
+des fichiers de l&rsquo;outil Duevera Formulaire. <BR>2. Installez le
+contenu de ce dossier sur votre site (par FTP, comme vous le faites
+habituellement pour installer vos pages sur votre site). <BR>3.
+Connectez vous avec votre navigateur sur votre site, dans un fichier
+intitul&eacute; &quot; db.php &quot;. Cliquez sur le bouton
+&quot;&nbsp;Modifier les param&egrave;tres&nbsp;&quot; et d&eacute;finissez
+les variables de connexion.</FONT></P>
+<P>&nbsp;</P>
+<H3><FONT FACE="Verdana">Configuration n&eacute;cessaire</FONT></H3>
+<P><FONT FACE="Verdana">Vous devez disposer d&rsquo;un h&eacute;bergement
+Web avec : </FONT>
+</P>
+<OL>
+	<LI><P STYLE="margin-bottom: 0cm"><FONT FACE="Verdana">Un acc&egrave;s
+	FTP pour l&rsquo;installation des fichiers </FONT>
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><FONT FACE="Verdana">Le support de
+	PHP3 </FONT>
+	</P>
+	<LI><P><FONT FACE="Verdana">Un acc&egrave;s &agrave; une base de
+	donn&eacute;es MySQL. </FONT>
+	</P>
+</OL>
+<P><FONT FACE="Verdana">Avant l&rsquo;installation, vous devez avoir
+une base mySQL disponible. Sur de tr&egrave;s nombreux h&eacute;bergements,
+il faut soit demander l&rsquo;activation d&rsquo;une base mySQL &agrave;
+l&rsquo;administrateur, soit suivre une proc&eacute;dure automatique
+en ligne (dans tous les cas, l&rsquo;activation de la base mySQL n&rsquo;a
+rien &agrave; voir avec Duevera Formulaire ; si vous avez des
+difficult&eacute;s, seul votre h&eacute;bergeur peut vous fournir les
+mots de passe n&eacute;cessaires et vous expliquer comment activer
+votre compte mySQL). </FONT>
+</P>
+<P><FONT FACE="Verdana">Vous devez conna&icirc;tre les donn&eacute;es
+de votre connexion MySQL (fournies par l&rsquo;h&eacute;bergeur) : </FONT>
+</P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm"><FONT FACE="Verdana">L&rsquo;adresse
+	de la base MySQL : par exemple sql.free.fr, ou localhost, ou vide </FONT>
+	</P>
+	<LI><P STYLE="margin-bottom: 0cm"><FONT FACE="Verdana">Votre login
+	MySQL : souvent le m&ecirc;me login que votre compte Web </FONT>
+	</P>
+	<LI><P><FONT FACE="Verdana">Votre password MySQL : souvent le m&ecirc;me
+	que le compte Web</FONT></P>
+</UL>
+<P ALIGN=JUSTIFY><BR><BR>
+</P>
+<H1>Modifier la configuration</H1>
+<P>Vous pouvez modifier la configuration de base de PHP dans le
+fichier php.ini.</P>
+<P>Attention, dans ce fichier, les lignes qui commencent par un point
+virgule sont de commentaires.</P>
+<P>Il faut modifier les lignes qui ne sont pas des commentaires, donc
+plus bas dans le fichier...</P>
+<P>Vous pourrez modifier les lignes suivantes pour obtenir&nbsp;:</P>
+<P>register_globals = On</P>
+<P>magic_quotes_gpc = On</P>
+<P>error_reporting = E_ALL &amp; ~E_NOTICE</P>
+<P>display_errors = On</P>
+<P LANG="en-US" ALIGN=JUSTIFY STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P ALIGN=JUSTIFY><FONT FACE="Verdana"><FONT SIZE=4><B>Utilisation</B></FONT></FONT></P>
+<P ALIGN=JUSTIFY><FONT FACE="Verdana">L&rsquo;utilisation est
+particuli&egrave;rement simple si vous avez des notions de base de
+donn&eacute;es. Cet outil vous permettra de g&eacute;rer les tables
+(recherches param&eacute;tr&eacute;s, insertion et suppression
+d&rsquo;enregistrement&hellip; Sans faire aucune requ&ecirc;te SQL).</FONT></P>
+</BODY>
+</HTML>

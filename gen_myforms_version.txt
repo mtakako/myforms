@@ -1,0 +1,150 @@
+
+VERSION 1.8.2
+-------------
+Correction bug sur la gestion des types de donnees dans mysql
+
+VERSION 1.8.1
+-------------
+Simplification du code : relation n a n que pour 2 pattes
+Correction de bugs, affichage des relations 2 pattes dans les vues et views
+
+VERSION 1.8.0
+-------------
+Correction du fonctionnement des dessins des workflows bloquant avec les derniers navigateurs
+Choix des colonnes à afficher dans les relations n a n
+
+VERSION 1.7.9
+-------------
+Gestion du passage de liste a une autre liste des valeurs de table etrangere dans les formulaires avec des fleches gauches et droites
+
+VERSION 1.7.8
+-------------
+Correction moteur de recherche lorsque des criteres contiennent une quote.
+
+VERSION 1.7.7
+-------------
+Correction bug utilisation relation nan en mode 2
+
+VERSION 1.7.6
+-------------
+Correction bug dans le tableau recap, meillier gestion des insertions des scripts
+
+VERSION 1.7.5
+-------------
+Correction bug pour la gestion des photos
+VERSION 1.7.4
+-------------
+Correction bug sur les requetes de tables etrangeres dans les tableaux de suivi
+
+VERSION 1.7.3-1
+-------------
+Correction bug export XLS
+
+VERSION 1.7.3
+-------------
+Correction bug sur les requetes de tables etrangeres.
+
+VERSION 1.7.1
+-------------
+Correction bug sur les fichiers joints qui disparaissent dans workflow edition.
+Meilleur gestion des etats d'une fiche a partir de l'insertion ou de la modification : tous les etats s'affichent si on a coche l'affichage de l'etat dans les fiches INS et MAJ
+
+VERSION 1.7.0
+-------------
+Mise en place d'un diagramme graphique de workflow
+Gestion des modes popup 1 et 2 dans les workflows
+Correction d'erreur pour les nombres negatifs dans les zones de saisie
+Integration du code specifique dans vue et view apres la requete SQL.
+Gestion du type int dans les formulaires de saisie
+
+VERSION 1.6.0
+-------------
+Meilleur prise en compte de l encodage.
+Suppression de la modification de la casse des textes (ucfirst).
+Suppression des 3 niveaux d'action a la validation d'un workflow pour un seul niveau d'action
+
+VERSION 1.5.8b
+-------------
+Correction bug sur les requetes FK avec un 'order by' et sans restriction.
+Remplacement de la requete qui passe a lister_table() par la variable fk[].
+Correction de la fonction lister_table et lister_col_num_lib pour prendre en compte le order by.
+Ajout de zone pour ajout de code specifique dans la page insertion.
+
+VERSION 1.5.8
+-------------
+Suppression de la modification possible du fichier de parametrage.
+Ajout d'une zone pour la saisie de code specifique dans le milieu du moteur de recherche.
+
+VERSION 1.5.7c
+-------------
+Modification de la gestion de droits.
+Affichage des zones obligatoires en rouge.
+
+VERSION 1.5.7b
+-------------
+Ajout dans Workflow edit de l etat actule de la fiche dans un champ invisible, afin de pouvoir faire des controles specifiques en javascript pour la validation du formulaire.
+
+VERSION 1.5.7
+-------------
+Nouvelle gestion des droits depuis la page de configuration.
+Ajout de l'affichage ou non des informations vides dans la VUE et dans VIEW admin.
+Ajout d'insertions PHP ou JS en bas et en haut de la VUE et dans VIEW admin.
+Correction de bugs avec PHP 5.5
+
+VERSION 1.5.6
+-------------
+Ajout de colonne de configuration pour le style des zone de saisie en mode EDITION.
+
+VERSION 1.5.5
+-------------
+Prise en compte de PHP 5.5
+Gestion de la suppression des super-globales
+Gestion de la suppressions des magic-quotes
+Gestion de l'encodage utf8 ou latin1 au choix dans le fichier de parametres
+
+VERSION 1.5.4
+-------------
+Correction Bug de creation dynamique des requetes SQL.
+Ajout de traces dans la base et ajout de mail en cas de plantage.
+Verification du format de la date apres saisie cote serveur. Envoie de mail si besoin en cas de plantage.
+
+VERSION 1.5.3
+-------------
+Insertion de code specifique dans les tableau de suivi a partir du parametrage (colonne.php)
+
+VERSION 1.5.2
+-------------
+Correction bug affichage du mois suivant dans les fiches tableau utilisateur et administrateur
+
+VERSION 1.5.1
+-------------
+Affichage sous forme de DIV de INS et MAJ avec gestion de la liste des colonnes affichees.
+Ajout dans la config du choix du mod afichage et du nombre de colonne affichable dans le moteur de recherche.
+
+VERSION 1.5
+-----------
+Ajout du controle du formatage des heures.
+Modification de la gestion du tri des tableaux de suivi (tri sur plusieurs colonnes)
+Modification du style des tableaux afin de meilleure impression.
+Ajout de la gestion d'affichage des colonnes dans la view administrateur.
+
+VERSION 1.4
+-----------
+Ajout de l'insertion de code dans le moteur de recherche.
+Ajout de la generation du tableau administrateur avec export excel.
+
+VERSION 1.3
+-----------
+Ajout de securite pour l'affichage en provenance de la base dans une page html (Vulnerabilite XSS...).
+Ajout de l'attribut HTML dans les INPUT. Permet d'ajouter du JS ou du CSS sur un objet de formulaire.
+
+VERSION 1.2
+-----------
+Ajout de la securite des pages generees :
+Gestion de session et de l'appel du moteur de recherche.
+
+VERSION 1.1
+-----------
+Gestion des elements de formulaire dans plusieurs niveaux de validation.
+Du coup dans colonne.php il faut affecter les elements du formulaire comme ceux etant a saisir pour passer au niveau suivant.
+Attention si une colonne a un valeur par defaut a l'insertion, elle va apparaitre dans le formulaire meme si elle est a valider dans un niveau suivant.
